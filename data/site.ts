@@ -34,20 +34,20 @@ export const business = {
 
   // Confirmed location (city/region). Street address not yet provided:
   address: {
-    street: "123 Example Street, Unit 000", // REPLACE with the real street address + suite
+    street: "74 Mandalay Dr", // REPLACE with the real street address + suite
     city: "Winnipeg",
     region: "MB",
-    postalCode: "R0R 0R0", // REPLACE with the real postal code
+    postalCode: "R2P 1V8", // REPLACE with the real postal code
     country: "CA",
   },
 
-  phone: "+1 (204) 000-0000", // REPLACE with the real phone number (used for tel: link + display)
+  phone: "+1 (204) 632-1606", // REPLACE with the real phone number (used for tel: link + display)
   email: "hello@example.com", // REPLACE with the real email (used for mailto: link + display)
 
   // Opening hours, shown in the Contact section. Edit days/times as needed.
   hours: [
-    { day: "Monday – Friday", time: "By appointment" }, // REPLACE with real hours
-    { day: "Saturday", time: "By appointment" }, // REPLACE with real hours
+    { day: "Monday", time: "12 p.m.-7 p.m." }, // REPLACE with real hours
+    { day: "Tuesday - Saturday", time: "10:30 a.m.-7 p.m." }, // REPLACE with real hours
     { day: "Sunday", time: "Closed" }, // REPLACE with real hours
   ],
 
